@@ -1,0 +1,38 @@
+.heading{
+  font-size: 30px;
+  font-weight: 700;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 50px;
+  overflow: hidden;
+  border-radius: 25px;
+ /* //width: 100%; */
+}
+.inputBox{
+  height: 30px;
+  width: 40%;
+  padding: 10px;
+}
+.listStyle{
+  display: grid;
+  align-items: center;
+  justify-content:center;
+  margin-top: 20px;
+}
+.listItem{
+  font-size: 18px;
+  font-weight: 500;
+  color: #555;
+  padding: 5px;
+  cursor: pointer;
+}
+/* .listItem:hover{
+  background-color: darkcyan;
+} */
